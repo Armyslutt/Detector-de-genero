@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector de género</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script defer src="assets/app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" data-tilt>
+            <div class="card-header">
+                <span class="blue heading">Detector </span> 
+                <span class="heading">de </span>
+                <span class="pink heading">género</span>
+            </div>
+            <div card-description>
+                <span class="description">Al ingresar un nombre, se te dirá el género más probable al que este corresponde.</span>
+            </div>
+            <div class="card-content">
+                <input class="name-input" type="text" id="name-input" placeholder="Ingresa un nombre aquí.."><br>
+                <button id="submit-btn" class="submit-btn">Detectar género</button>
+                <p class="result name"></p>
+                <p class="result gender"></p>
+                <p class="msg-txt"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/vanilla-tilt.js"></script>
+
+</body>
+
+</html>
